@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test aritcle by snapshot render correctly with A tag 1`] = `
+<a
+  className="article article_type_link"
+  href="https://techcrunch.com/2017/08/15/em3/"
+  target="_blank"
+>
+  <span
+    className="article__image-wrap"
+  >
+    <img
+      alt="In India, an Uber for farm machinery aims to make a difference in rural areas"
+      className="article__image"
+      src="https://tctechcrunch2011.files.wordpress.com/2017/08/em3.jpg?w=764&h=400&crop=1"
+    />
+  </span>
+  <div
+    className="article__info"
+  >
+    <h2
+      className="article__title"
+    >
+      In India, an Uber for farm machinery aims to make a difference in rural areas
+    </h2>
+    <h2
+      className="article__title"
+    >
+      In India, an Uber for farm machinery aims to make a difference in rural areas
+    </h2>
+    <b
+      className="article__author"
+    >
+      Jon Russell
+    </b>
+    <p
+      className="article__description"
+    >
+      Uber has inspired countless businesses to adopt its asset-light and on-demand approach to their industries. The examples are countless. Food delivery, dry..
+    </p>
+    <p
+      className="article___time"
+    >
+      2017-08-15T09:58:59Z
+    </p>
+  </div>
+</a>
+`;
+
+exports[`test aritcle by snapshot render correctly without A tag 1`] = `
+<div
+  className="article"
+>
+  <span
+    className="article__image-wrap"
+  >
+    <img
+      alt="In India, an Uber for farm machinery aims to make a difference in rural areas"
+      className="article__image"
+      src="https://tctechcrunch2011.files.wordpress.com/2017/08/em3.jpg?w=764&h=400&crop=1"
+    />
+  </span>
+  <div
+    className="article__info"
+  >
+    <h2
+      className="article__title"
+    >
+      In India, an Uber for farm machinery aims to make a difference in rural areas
+    </h2>
+    <h2
+      className="article__title"
+    >
+      In India, an Uber for farm machinery aims to make a difference in rural areas
+    </h2>
+    <b
+      className="article__author"
+    >
+      Jon Russell
+    </b>
+    <p
+      className="article__description"
+    >
+      Uber has inspired countless businesses to adopt its asset-light and on-demand approach to their industries. The examples are countless. Food delivery, dry..
+    </p>
+    <p
+      className="article___time"
+    >
+      2017-08-15T09:58:59Z
+    </p>
+  </div>
+</div>
+`;

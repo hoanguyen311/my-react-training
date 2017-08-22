@@ -1,0 +1,50 @@
+.form-select {
+    display: table;
+}
+
+.form-select__label, .form-select__border {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-select__border::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 9px;
+    top: 50%;
+    margin-top: -2px;
+    border-width: 6px 6px 0;
+    border-style: solid;
+    border-color: gray transparent;
+    z-index: 2;
+}
+
+.form-select__border {
+    background: #FFF;
+    border: 2px solid #ccc;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 25px 5px 10px;
+    position: relative;
+}
+
+.form-select_state_disabled .form-select__border {
+    background: none;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.form-select_state_disabled .form-select__control {
+    color: #FFF;
+}
+
+.form-select__control {
+    background: none;
+    appearance: none;
+    border: none;
+    color: #808080;
+    outline: none;
+}

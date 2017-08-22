@@ -1,0 +1,27 @@
+.article {
+    display: flex;
+    text-decoration: none;
+    background: #FFF;
+}
+
+.article__image-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.article__image {
+    width: 100%;
+    height: auto
+}
+
+.article__info {
+
+}
+
+.article__title {
+    font-size: 15px;
+    color: #ccc;
+}
+
+.article__author {}
+.article__description {}
